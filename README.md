@@ -1,7 +1,8 @@
 Multirun
 ========
 
-Multirun is a development tool to run and monitor services needed in the development process.
+Multirun is a development tool to run and monitor services needed in the development process. It can be thought of
+as a naive alternative to docker-compose for local development.
 
 Quickstart
 ----------
