@@ -6,7 +6,7 @@ Multirun is a development tool to run and monitor services needed in the develop
 Quickstart
 ----------
 
-Once installed "multirun" will be in your PATH. You will also need to build a toml file with the commands
+Once installed `multirun` will be in your PATH. You will also need to build a toml file with the commands
 you wish to run:
 
 ```
@@ -25,3 +25,5 @@ then run `multirun -c path/to/multirun.toml`
 You should see a screen similar to:
 
 ![screenshot of multirun](screenshot.png)
+
+Once running, you can click on individual panes to select them `C-b r` will kill and rerun the process, `C-b k` will kill all commands and exit multirun.
