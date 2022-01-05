@@ -32,7 +32,7 @@ def main():
     cmd_parts = ['tmux set -g mouse on \\; bind r respawn-pane \\;  bind k kill-session \\; set -g pane-border-status top ']
 
     first_command = cmds.pop()
-    cmd_parts.append(f"\tnew-session -s \"devopsapp\" {first_command} ")
+    cmd_parts.append(f"\tnew-session -s \"multirun\" {first_command} ")
     for cmd in cmds:
         cmd_parts.append(f"\tsplit-window {cmd}")
     cmd_parts.append("\tselect-layout even-vertical")
